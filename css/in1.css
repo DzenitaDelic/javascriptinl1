@@ -1,0 +1,57 @@
+
+#bakgrundsbild {
+    height: auto;
+    background-color: lightseagreen;
+    background-image: linear-gradient(lightseagreen, lightgrey);
+    padding: 30px;
+    position: relative;
+}
+
+fieldset {
+    position: relative;
+    left: 200px;
+    width: 1000px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+
+
+#namn, #adress, #email, #password, #repeatPassword {
+    width: 320px;
+    height: 30px;
+    border-radius: 9px;
+    border:none;
+}
+
+#textarea {
+
+    width:324px;
+    height: 150px;
+    border-radius: 9px;
+    border:none;
+}
+#payment {
+    width: 320px;
+    height: 30px;
+    border-radius: 9px;
+    border:none;
+}
+
+#knapp {
+    background-color: rgb(0, 128, 79);
+    width: 324px;
+    height: 30px;
+    border-radius: 9px;
+    border:none;
+}
+
+#knapp:hover {
+    background-color: rgb(31, 179, 154);
+    color: white;
+}

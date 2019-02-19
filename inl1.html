@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/in1.css" rel="stylesheet" type="text/css">
+    <title>Registrering</title>
+</head>
+<body> 
+
+<div id="bakgrundsbild">
+<form name = "kontakt" action = "php/java1.php" method = "post" onSubmit="return validateForm(this)" >
+
+<fieldset >
+<legend>Registrering: </legend>
+<br>
+<label for="typ" >Välj:</label>
+<input id="typ" type="radio" name="typ"  value="0" required>Privat
+<input id="text" type="radio" name="typ" value="1" required>Företag
+
+<br><br>
+<div class="pay">
+        <select name="payment" id="payment">
+            <option value="" selected="selected">Välj betalsätt!</option>
+            <option value="0">Kreditkort</option>
+             <option value="1">Faktura</option>
+    </select>
+    </div>
+<br><br>
+För och efternamn:<br>
+<input name = "namn" type = "text" id="namn">
+<br>
+<br>
+Adress:<br>
+<input name = "adress" type = "text" id="adress">
+<br>
+<br>
+E-postadress:<br>
+<input name = "email" type = "text" id="email">
+<br>
+<br>
+Lösenord (6-10 tkn):<br><input type="text" name="password"  id="password"/><br></br>
+
+Upprepa lösenord<br><input type="text" name="repeatPassword" id="repeatPassword"/><br></br>  
+
+Beskriv dig själv:<br>
+<textarea name = "kommentar" id="textarea">
+</textarea>
+<br>
+<br>
+<input type="checkbox" name="checkbox">Jag godkänner villkoren för registrering!<br><br>
+
+<input name="submit" type = "submit" value = "Skicka in uppgifterna" id="knapp">
+</fieldset>
+</form>
+</div>
+
+<script src="js/js1.js"></script>
+
+</body>
+</html>
